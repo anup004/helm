@@ -21,6 +21,9 @@ inputs:
     description: Task name. If the task is "remove" it will remove the configured
       helm release.
     required: false
+  debug:
+    description: to enable helm debug.
+    required: false  
   dry-run:
     description: Simulate an upgrade.
     required: false
